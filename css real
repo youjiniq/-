@@ -32,23 +32,23 @@ nav {
 }
 nav .gnb li a {
   display: block;
-  font: bold 40px/1 "arial";
+  font: bold 43px/1 "arial";
   letter-spacing: 3px;
   color: #fa8fc2;
   -webkit-text-stroke: 1.5px black;
   position: relative;
   bottom: 400px;
-  margin-left: 40px;
+  margin-left: 35px;
   padding: 15px;
 }
 article div.circle {
   position: absolute;
-  bottom: 170px;
-  left: 1200px;
+  bottom: 150px;
+  left: 1000px;
   width: 600px;
   height: 600px;
   border-radius: 50%;
-  background: url(./img/Ellipse\ 3.png);
+  background: url(./images/Ellipse\ 3.png);
   background-size: contain;
 }
 article div.circle:hover {
@@ -62,11 +62,11 @@ span {
   letter-spacing: 2px;
   color: #fa8fc2;
   bottom: 350px;
-  left: 1550px;
+  left: 1330px;
 }
 div.about p {
   display: block;
-  font: bold 50px/1 "arial";
+  font: bold 55px/1 "arial";
   color: #fa8fc2;
   border-bottom: 5px solid #fa8fc2;
   -webkit-text-stroke: 2px black;
@@ -78,31 +78,41 @@ div.about p {
   width: 450px;
   height: 800px;
   position: absolute;
-  left: 500px;
+  left: 450px;
   top: 100vh;
 }
 h1 {
   position: absolute;
-  -webkit-text-stroke: 1px black;
-  top: 550px;
+  -webkit-text-stroke: 1.5px black;
+  top: 600px;
   top: 100vh;
-  left: 515px;
+  left: 460px;
   height: 800px;
   color: #fa8fc2;
-  padding: 20px;
-  font-size: 45px;
+  padding: 30px;
+  font-size: 43.5px;
 }
 .yj p {
   position: absolute;
   top: 1000px;
-  left: 580px;
+  left: 520px;
   color: #000;
   font-size: 50PX;
 }
 
-.photo {
-  position: relative;
-  float: right;
-  top: 850px;
-  right: 90px;
+div.img {
+    position: absolute;
+    top: 950px;
+    right: 100px;
+
+}
+div.img02 {
+    position: absolute;
+    top: 1300px;
+    right: 400px;
+}
+div.img03 {
+    position: absolute;
+    top: 1700px;
+    right: 150px;
 }
