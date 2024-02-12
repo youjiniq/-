@@ -1,75 +1,85 @@
-  <body>
-    <header>
-      <div class="inner">
-        <figure>
-          <img width="200px" src="./img/Logo.png" alt="logo" />
-        </figure>
-        <div class="GOALS">
+     <body>
+        <header>
+          <div class="inner">
+            <figure>
+              <img width="200px" src="./images/Logo.png" alt="logo" />
+            </figure>
+            <div class="GOALS">
+              <p>
+                GOALS : VALUABLE, MEMORABLE <br />
+                to be a valuable ui designer and <br />
+                frontend developer. . .
+              </p>
+            </div>
+          </div>
+          <div class="square01"></div>
+          <nav>
+            <ul class="gnb">
+              <li>
+                <a href="#">ABOUT</a>
+              </li>
+              <li>
+                <a href="#">LOVE THINGS</a>
+              </li>
+              <li>
+                <a href="#">VALUE</a>
+              </li>
+              <li>
+                <a href="#">CONTACT</a>
+              </li>
+            </ul>
+            아이콘넣기 
+          </nav>
+        </header>
+        <article>
+          <div class="circle"></div>
+        </article>
+        <span>
+          UI DESIGN <br />& <br />
+          FRONTEND
+        </span>
+        <p class="about">ABOUT</p>
+        <div class="square02"></div>
+        <div class="yj">
+          <h1>[YOUJIN HWANG]</h1>
           <p>
-            GOALS : VALUABLE, MEMORABLE <br />
-            to be a valuable ui designer and <br />
-            frontend developer. . .
+            <br />
+            99.11.26 <br />
+            <br>
+            Environmental <br />
+            energy <br />
+            engineering <br />
+            <br />
+            2023 Graduate <br />
+            <br />
+            INTP / ENFP
           </p>
         </div>
-      </div>
-      <div class="square01"></div>
-      <nav>
-        <ul class="gnb">
-          <li>
-            <a href="#">ABOUT</a>
-          </li>
-          <li>
-            <a href="#">LOVE THINGS</a>
-          </li>
-          <li>
-            <a href="#">VALUE</a>
-          </li>
-          <li>
-            <a href="#">CONTACT</a>
-          </li>
-        </ul>
-        아이콘넣기
-      </nav>
-    </header>
-    <article>
-      <div class="circle"></div>
-    </article>
-    <span>
-      UI DESIGN <br />& <br />
-      FRONTEND
-    </span>
-    <div class="main1">
-      <div class="square02"></div>
-      <div class="yj">
-        <h1>[YOUJIN HWANG]</h1>
-        <p>
-          <br />
-          99.11.26 <br>
-          <br />
-          Environmental <br />
-          energy <br />
-          engineering <br />
-          <br />
-          2023 Graduate <br />
-          <br />
-          INTP / ENFP
+        <div class="img">
+            <img
+            src="./images/Rectangle 14.png" alt="14" />
+        </div>
+        <div class="img02">
+            <img src="./images/Rectangle 15.png" alt="">
+        </div>
+        <div class="img03">
+            <img src="./images/Rectangle 16.png" alt="">
+        </div>
+        <p class="love">LOVE THINGS
         </p>
-      </div>
-      <div class="photo">
-        <div class="img1">
-          <img src="./img/Rectangle 14.png" alt="14" />
-        </div>
-        <div class="img2">
-          <img class="15" src="./img/Rectangle 15.png" alt="15" />
-        </div>
-        <div class="img3">
-          <img class="16" src="./img/Rectangle 16.png" alt="16" />
-        </div>
-      </div>
-    </div>
-  </body>
+        <div class="loveimg">
+          <img class="img001" src="./images/KakaoTalk_20240211_171732591_03.jpg" alt="">
+          <img class="img002" src="./images/KakaoTalk_20240211_171732591.jpg" alt="">
+          <img class="img003" src="./images/KakaoTalk_20240211_171732591_05.jpg" alt="">
+          <img class="img004" src="./images/KakaoTalk_20240211_171732591_07.jpg" alt="">
+          <div class="loveimg02">
+            <img class="img005" src="./images/KakaoTalk_20240211_171732591_04.jpg" alt="">
+            <img class="img006" src="./images/KakaoTalk_20240211_171732591_02.jpg" alt="">
+            <img class="img006" src="./images/KakaoTalk_20240211_171732591_02.jpg" alt="">
 
-
+          </div>
+        </div>
+      </body>
 
 
 
@@ -84,13 +94,11 @@
 
 
 
-@import url(./reset.css);
-
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-
+@import url(./reset.css);
 body {
   background-color: #000;
-  height: 3000px;
+  height: 4000px;
 }
 header {
   position: fixed;
@@ -123,21 +131,21 @@ nav .gnb li a {
   display: block;
   font: bold 40px/1 "arial";
   letter-spacing: 3px;
-  color: #ed7bab;
+  color: #fa8fc2;
   -webkit-text-stroke: 1.5px black;
   position: relative;
   bottom: 400px;
-  margin-left: 40px;
+  margin-left: 35px;
   padding: 15px;
 }
 article div.circle {
   position: absolute;
-  bottom: 170px;
-  left: 1200px;
+  bottom: 150px;
+  left: 1000px;
   width: 600px;
   height: 600px;
   border-radius: 50%;
-  background: url(./img/Ellipse\ 3.png);
+  background: url(./images/Ellipse\ 3.png);
   background-size: contain;
 }
 article div.circle:hover {
@@ -149,83 +157,124 @@ span {
   -webkit-text-stroke: 2px black;
   font: bold 60px/1 "arial";
   letter-spacing: 2px;
-  color: #ed7bab;
+  color: #fa8fc2;
   bottom: 350px;
-  left: 1550px;
+  left: 1330px;
 }
 div.about p {
   display: block;
-  font: bold 50px/1 "arial";
-  color: #ed7bab;
-  border-bottom: 5px solid #ed7bab;
+  font: bold 55px/1 "arial";
+  color: #fa8fc2;
+  border-bottom: 5px solid #fa8fc2;
   -webkit-text-stroke: 2px black;
   position: absolute;
   bottom: 1000;
+}
+p.about {
+  color: #fa8fc2;
+  text-decoration-line: underline;
+  font-weight: bold;
+  font-size: 40px;
+  position: absolute;
+  top: 850px;
+  left: 500px;
 }
 .square02 {
   background: #fff;
   width: 450px;
   height: 800px;
   position: absolute;
-  left: 500px;
+  left: 450px;
   top: 100vh;
 }
 h1 {
   position: absolute;
-  -webkit-text-stroke: 1px black;
-  top: 550px;
+  -webkit-text-stroke: 1.5px black;
+  top: 600px;
   top: 100vh;
-  left: 515px;
+  left: 460px;
   height: 800px;
-  color: #ed7bab;
-  padding: 20px;
-  font-size: 45px;
+  color: #fa8fc2;
+  padding: 25px;
+  font-size: 43.5px;
 }
 .yj p {
+  font-family: 'Oswald', sans-serif;
   position: absolute;
-  margin-top: -7px;
-  top: 950px;
-  letter-spacing: 2px;
-  left: 580px;
+  top: 960px;
+  left: 520px;
   color: #000;
   font-size: 50PX;
-  font-family: 'Oswald', sans-serif;
 }
 
-.photo {
+div.img {
+    position: absolute;
+    top: 950px;
+    right: 100px;
+
+}
+div.img02 {
+    position: absolute;
+    top: 1300px;
+    right: 400px;
+}
+div.img03 {
+    position: absolute;
+    top: 1700px;
+    right: 150px;
+}
+p.love {
+  color: #fa8fc2;
+  text-decoration-line: underline;
+  font-weight: bold;
+  font-size: 40px;
+  position: absolute;
+  top: 2100px;
+  left: 500px;
+}
+.loveimg {
+  text-align: left;
+}
+img.img001 {
   position: relative;
-  float: right;
-  top: 850px;
-  right: 70px;
+  top: 2250px;
+  left: 500px;
+  width: 300px;
+  height: 300px;
 }
-
-div .img1 {
-  position: absolute;
-  top: 80px;
-  right: 10px;
+img.img002 {
+  position: relative;
+  top: 2250px;
+  left: 500px;
+  width: 300px;
+  height: 300px;
 }
-div .img2 {
-  position: absolute;
-  top: 270px;
-  right: 450px;
+img.img003 {
+  position: relative;
+  top: 2250px;
+  left: 500px;
+  width: 300px;
+  height: 300px;
 }
-div .img3 {
-  position: absolute;
-  top: 600px;
-  right: 70px;
+img.img004 {
+  position: relative;
+  top: 2250px;
+  left: 500px;
+  width: 300px;
+  height: 300px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+img.img005 {
+  position: relative;
+  top: 2400px;
+  left: 500px;
+  width: 300px;
+  height: 300px;
+}
+img.img006 {
+  position: relative;
+  top: 2400px;
+  left: 500px;
+  width: 300px;
+  height: 300px;
+}
 
