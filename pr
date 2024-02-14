@@ -38,67 +38,111 @@
       UI DESIGN <br />& <br />
       FRONTEND
     </span>
-
-    <p class="about">ABOUT</p>
-    <div class="main1">
-      <div class="square02"></div>
-      <div class="yj">
-        <h1>[YOUJIN HWANG]</h1>
-        <p>
-          <br />
-          99.11.26 <br>
-          <br />
-          Environmental <br />
-          energy <br />
-          engineering <br />
-          <br />
-          2023 Graduate <br />
-          <br />
-          INTP / ENFP
-        </p>
+    <div class="boxContainer">
+      <p class="about">ABOUT</p>
+      <div class="main1">
+        <div class="square02"></div>
+        <div class="yj">
+          <h1>[YOUJIN HWANG]</h1>
+          <p>
+            <br />
+            99.11.26 <br />
+            <br />
+            Environmental <br />
+            energy <br />
+            engineering <br />
+            <br />
+            2023 Graduate <br />
+            <br />
+            INTP / ENFP
+          </p>
+        </div>
       </div>
-    </div>
       <div class="photo">
-          <img class="img1" src="./img/Rectangle 14.png" alt="14" />
-          <img class="img2" src="./img/Rectangle 15.png" alt="15" />
-          <img class="img3" src="./img/Rectangle 16.png" alt="16" />
+        <img class="img1" src="./img/Rectangle 14.png" alt="14" />
+        <img class="img2" src="./img/Rectangle 15.png" alt="15" />
+        <img class="img3" src="./img/Rectangle 16.png" alt="16" />
         </div>
 
-    <p class="love">LOVE THINGS
-    </p>
-    <div class="loveimg">
-      <img class="img001" src="./img/KakaoTalk_20240211_171732591_03.jpg" alt="">
-      <img class="img002" src="./img/KakaoTalk_20240211_171732591.jpg" alt="">
-      <img class="img003" src="./img/KakaoTalk_20240211_171732591_05.jpg" alt="">
-      <img class="img004" src="./img/KakaoTalk_20240211_171732591_07.jpg" alt="">
-    </div>
-    <p class="cooking">Cooking</p>
-      <div class="loveimg02">
-        <img class="img005" src="./img/KakaoTalk_20240211_171732591_02.jpg" alt="">
-        <img class="img006" src="./img/KakaoTalk_20240211_171732591_04.jpg" alt="">
-        <img class="img006" src="./img/KakaoTalk_20240211_171732591_06.jpg" alt="">
-        <img class="img007" src="./img/KakaoTalk_20240211_171732591_02.jpg" alt="">
       </div>
+
+      <p class="love">LOVE THINGS</p>
+      <div class="loveimg">
+        <img
+          class="img001"
+          src="./img/KakaoTalk_20240211_171732591_03.jpg"
+          alt=""
+        />
+        <img
+          class="img002"
+          src="./img/KakaoTalk_20240211_171732591.jpg"
+          alt=""
+        />
+        <img
+          class="img003"
+          src="./img/KakaoTalk_20240211_171732591_05.jpg"
+          alt=""
+        />
+        <img
+          class="img004"
+          src="./img/KakaoTalk_20240211_171732591_07.jpg"
+          alt=""
+        />
+      </div>
+
+      <p class="cooking">Cooking</p>
+      <div class="loveimg02">
+        <img
+          class="img005"
+          src="./img/KakaoTalk_20240211_171732591_02.jpg"
+          alt=""
+        />
+        <img
+          class="img006"
+          src="./img/KakaoTalk_20240211_171732591_04.jpg"
+          alt=""
+        />
+        <img
+          class="img006"
+          src="./img/KakaoTalk_20240211_171732591_06.jpg"
+          alt=""
+        />
+        <img
+          class="img007"
+          src="./img/KakaoTalk_20240211_171732591_02.jpg"
+          alt=""
+        />
+      </div>
+
       <p class="baking">Baking</p>
 
-      <p class="value">VALUE</p>
-      
+      <p class="nav-value">VALUE</p>
+      <div class="square03">
+        <p class="value">
+          무언가를 창조하는 과정에서 가치를 느낍니다. <br />
+          <br />
+          <br />
+          창조한 결과물이 영향력을 발휘할 때 가치를 느낍니다. <br /><br /><br />
+          가치를 느끼는 일을 하면서<br /><br /><br />
+          주도적인 삶을 사는 사람이 되고 싶습니다.
+        </p>
+      </div>
+
+      <p class="nav-contact">CONTACT</p>
+
+      <p class="hear">
+        I'd love to <br />
+        hear from you
+      </p>
+      원형
+      <div class="square04"></div>
+      <p class="contact">Contact me</p>
+    </div>
   </body>
 
-
-
-  <div class="square03">
-            <p class="value">
-              무언가를 창조하는 과정에서 가치를 느낍니다. <br> <br> <br>
-              창조한 결과물이 영향력을 발휘할 때 가치를 느낍니다. <br><br><br>
-              가치를 느끼는 일을 하면서<br><br><br>
-              주도적인 삶을 사는 사람이 되고 싶습니다. 
-            </p>
-          </div>
-
-          <p class="nav-contact">CONTACT</p>
-
 -------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
@@ -106,13 +150,18 @@
 @import url(./reset.css);
 
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbit&family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap");
 
 body {
   background-color: #000;
-  height: 5000px;
+  height: 4400px;
 }
 header {
   position: fixed;
+}
+.boxContainer {
+  margin-left: 50px;
 }
 figure {
   position: absolute;
@@ -168,15 +217,15 @@ span {
   -webkit-text-stroke: 2px black;
   font: bold 60px/1 "arial";
   letter-spacing: 2px;
-  color: #ed7bab;
+  color: #fa8fc2;
   bottom: 350px;
   left: 1550px;
 }
 div.about p {
   display: block;
   font: bold 50px/1 "arial";
-  color: #ed7bab;
-  border-bottom: 5px solid #ed7bab;
+  color: #fa8fc2;
+  border-bottom: 5px solid #fa8fc2;
   -webkit-text-stroke: 2px black;
   position: absolute;
   bottom: 1000;
@@ -187,7 +236,7 @@ p.about {
   font-weight: bold;
   font-size: 40px;
   position: absolute;
-  top: 850px;
+  top: 900px;
   left: 500px;
 }
 .square02 {
@@ -196,13 +245,14 @@ p.about {
   height: 800px;
   position: absolute;
   left: 500px;
-  top: 100vh;
+  top: 105vh;
+  margin-top: 10px;
 }
 h1 {
   position: absolute;
   -webkit-text-stroke: 1px black;
   top: 550px;
-  top: 100vh;
+  top: 105vh;
   left: 515px;
   height: 800px;
   color: #ed7bab;
@@ -212,7 +262,7 @@ h1 {
 .yj p {
   position: absolute;
   margin-top: -7px;
-  top: 950px;
+  top: 1000px;
   letter-spacing: 2px;
   left: 580px;
   color: #000;
@@ -220,367 +270,100 @@ h1 {
   font-family: "Oswald", sans-serif;
 }
 
-/* .photo {
+.img1 {
   position: relative;
-  float: right;
-  top: 850px;
-  right: 70px;
-} */
-
-div .img1 {
-  position: relative;
-  top: 900px;
-  left: 1500px;
-  width: 300px;
-  height: 300px;
-  /* position: relative;
-  top: 80px;
-  right: 10px; */
-}
-div .img2 {
-  position: relative;
-  top: 1200px;
-  left: 800px;
-  width: 300px;
-  height: 300px;
-  /* position: absolute;
-  top: 270px;
-  right: 450px; */
-}
-div .img3 {
-  position: relative;
-  top: 1500px;
-  left: 900px;
-  width: 300px;
-  height: 300px;
-  /* position: absolute;
-  top: 600px;
-  right: 70px; */
-}
-p.love {
-  color: #fa8fc2;
-  text-decoration-line: underline;
-  font-weight: bold;
-  font-size: 40px;
-  position: absolute;
-  top: 2100px;
-  left: 500px;
-}
-
-p.cooking {
-  position: relative;
-  top: 1600px;
-  left: 500px;
-  font-size: 30px;
-  color: #fa8fc2;
-}
-img.img001 {
-  position: relative;
-  top: 2000px;
-  left: 500px;
-  width: 300px;
-  height: 300px;
-}
-img.img002 {
-  position: relative;
-  top: 2000px;
-  left: 500px;
-  width: 300px;
-  height: 300px;
-}
-img.img003 {
-  position: relative;
-  top: 2000px;
-  left: 500px;
-  width: 300px;
-  height: 300px;
-}
-img.img004 {
-  position: relative;
-  top: 2000px;
-  left: 500px;
-  width: 300px;
-  height: 300px;
-}
-p.baking {
-  position: relative;
-  top: 1700px;
-  left: 500px;
-  font-size: 30px;
-  color: #fa8fc2;
-}
-img.img005 {
-  position: relative;
-  top: 2100px;
-  left: 500px;
-  width: 300px;
-  height: 300px;
-}
-img.img006 {
-  position: relative;
-  top: 2100px;
-  left: 500px;
-  width: 300px;
-  height: 300px;
-}
-img.img007 {
-  position: relative;
-  top: 2100px;
-  left: 500px;
-  width: 300px;
-  height: 300px;
-}
-p.value {
-  color: #fa8fc2;
-  text-decoration-line: underline;
-  font-weight: bold;
-  font-size: 40px;
-  position: absolute;
-  top: 3150px;
-  left: 500px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-@import url(./reset.css);
-
-@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
-
-@import url('https://fonts.googleapis.com/css2?family=Orbit&family=Oswald&display=swap');
-
-
-@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
-
-
-
-body {
-  background: #000;
-  height: 6000px;
-}
-header {
-  position: fixed;
-}
-figure {
-  position: absolute;
-  margin-left: 25px;
-  margin-top: 30px;
-}
-.square01 {
-  background: #fff;
-  width: 400px;
-  height: 100vh;
-}
-div .GOALS {
-  position: relative;
-}
-.GOALS p {
-  font: bold 20px/1 "arial";
-  color: #000;
-  position: absolute;
-  top: 120px;
-  margin-left: 40px;
-  margin-top: 25px;
-}
-nav {
-  position: relative;
-}
-nav .gnb li a {
-  display: block;
-  font: bold 40px/1 "arial";
-  letter-spacing: 3px;
-  color: #fa8fc2;
-  -webkit-text-stroke: 1.5px black;
-  position: relative;
-  bottom: 400px;
-  margin-left: 40px;
-  padding: 15px;
-}
-article div.circle {
-  position: absolute;
-  bottom: 170px;
-  left: 1200px;
-  width: 600px;
-  height: 600px;
-  border-radius: 50%;
-  background: url(./images/Ellipse\ 3.png);
-  background-size: contain;
-}
-article div.circle:hover {
-  transition: all 7s;
-  transform: rotate(360deg);
-}
-span {
-  position: absolute;
-  -webkit-text-stroke: 2px black;
-  font: bold 60px/1 "arial";
-  letter-spacing: 2px;
-  color: #ed7bab;
-  bottom: 350px;
-  left: 1550px;
-}
-div.about p {
-  display: block;
-  font: bold 50px/1 "arial";
-  color: #ed7bab;
-  border-bottom: 5px solid #ed7bab;
-  -webkit-text-stroke: 2px black;
-  position: absolute;
-  bottom: 1000;
-}
-p.about {
-  color: #fa8fc2;
-  text-decoration-line: underline;
-  font-weight: bold;
-  font-size: 40px;
-  position: absolute;
-  top: 850px;
-  left: 500px;
-}
-.square02 {
-  background: #fff;
-  width: 450px;
-  height: 800px;
-  position: absolute;
-  left: 500px;
-  top: 100vh;
-}
-h1 {
-  position: absolute;
-  -webkit-text-stroke: 1px black;
-  top: 550px;
-  top: 100vh;
-  left: 515px;
-  height: 800px;
-  color: #ed7bab;
-  padding: 20px;
-  font-size: 45px;
-}
-.yj p {
-  position: absolute;
-  margin-top: -7px;
   top: 950px;
-  letter-spacing: 2px;
-  left: 580px;
-  color: #000;
-  font-size: 50px;
-  font-family: "Oswald", sans-serif;
-}
-
-/* .photo {
-  position: relative;
-  float: right;
-  top: 850px;
-  right: 70px;
-} */
-
-div .img1 {
-  position: relative;
-  top: 900px;
-  left: 1500px;
+  left: 1450px;
   width: 300px;
   height: 300px;
-  /* position: relative;
-  top: 80px;
-  right: 10px; */
+  right: 10px;
 }
-div .img2 {
+.img2 {
   position: relative;
   top: 1200px;
-  left: 800px;
+  left: 750px;
   width: 300px;
   height: 300px;
-  /* position: absolute;
-  top: 270px;
-  right: 450px; */
 }
-div .img3 {
+.img3 {
   position: relative;
-  top: 1500px;
-  left: 900px;
+  top: 1400px;
+  left: 850px;
   width: 300px;
   height: 300px;
-  /* position: absolute;
-  top: 600px;
-  right: 70px; */
 }
+
 p.love {
   color: #fa8fc2;
   text-decoration-line: underline;
   font-weight: bold;
   font-size: 40px;
   position: absolute;
-  top: 2100px;
+  top: 1800px;
   left: 500px;
 }
 
 p.cooking {
   position: relative;
-  top: 1600px;
+  top: 1280px;
   left: 500px;
   font-size: 30px;
   color: #fa8fc2;
 }
 img.img001 {
   position: relative;
-  top: 2000px;
+  top: 1650px;
   left: 500px;
   width: 300px;
   height: 300px;
+  margin-left: 10px;
 }
 img.img002 {
   position: relative;
-  top: 2000px;
+  top: 1650px;
   left: 500px;
   width: 300px;
   height: 300px;
 }
 img.img003 {
   position: relative;
-  top: 2000px;
+  top: 1650px;
   left: 500px;
   width: 300px;
   height: 300px;
 }
 img.img004 {
   position: relative;
-  top: 2000px;
+  top: 1650px;
   left: 500px;
   width: 300px;
   height: 300px;
 }
 p.baking {
   position: relative;
-  top: 1700px;
+  top: 1350px;
   left: 500px;
   font-size: 30px;
   color: #fa8fc2;
 }
 img.img005 {
   position: relative;
-  top: 2100px;
+  top: 1700px;
   left: 500px;
   width: 300px;
   height: 300px;
+  margin-left: 10px;
 }
 img.img006 {
   position: relative;
-  top: 2100px;
+  top: 1700px;
   left: 500px;
   width: 300px;
   height: 300px;
 }
 img.img007 {
   position: relative;
-  top: 2100px;
+  top: 1700px;
   left: 500px;
   width: 300px;
   height: 300px;
@@ -591,16 +374,16 @@ img.img007 {
   font-weight: bold;
   font-size: 40px;
   position: absolute;
-  top: 3150px;
+  top: 2700px;
   left: 500px;
 }
 .square03 {
   background: #fff;
-  width: 1500px;
-  height: 800px;
+  width: 1300px;
+  height: 650px;
   position: absolute;
   left: 500px;
-  top: 280vh;
+  top: 310vh;
 }
 .value {
   color: #000;
@@ -609,7 +392,7 @@ img.img007 {
   top: 50%;
   left: 50%;
   margin-left: 75px;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   text-decoration: underline #0b08092d;
   font-family: "Gothic A1", sans-serif;
   font-size: 36px;
@@ -622,7 +405,26 @@ img.img007 {
   font-weight: bold;
   font-size: 40px;
   position: absolute;
-  top: 4200px;
+  top: 3600px;
   left: 500px;
 }
 
+.hear {
+  position: absolute;
+  top: 3800px;
+  left: 500px;
+  color: #fff;
+  font-size: 50px;
+  /* font-family: "Oswald", sans-serif; */
+  font-family: "Gothic A1", sans-serif;
+  font-style: italic;
+  letter-spacing: 10px;
+}
+.square04 {
+  background: #fff;
+  width: 700px;
+  height: 700px;
+  position: absolute;
+  left: 1100px;
+  top: 395vh;
+}
