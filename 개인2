@@ -1,0 +1,142 @@
+  <body>
+    <header>
+      <div class="inner">
+        <figure>
+          <img width="200px" src="./img/Logo.svg" alt="logo" />
+        </figure>
+        <div class="GOALS">
+          <p>
+            GOALS : VALUABLE, MEMORABLE <br />
+            to be a valuable ui designer and <br />
+            frontend developer. . .
+          </p>
+        </div>
+      </div>
+      <div class="square01"></div>
+      <nav>
+        <ul class="gnb">
+          <li>
+            <a href="#">ABOUT</a>
+          </li>
+          <li>
+            <a href="#">LOVE THINGS</a>
+          </li>
+          <li>
+            <a href="#">VALUE</a>
+          </li>
+          <li>
+            <a href="#">CONTACT</a>
+          </li>
+        </ul>
+        아이콘넣기
+      </nav>
+    </header>
+
+    <div class="circlebox">
+      <div class="circle"></div>
+    <span>
+    YUJIN HWANG <br> PORTFOLIO
+    </span>
+    </div>
+
+    <div class="boxContainer">
+      <p class="about">ABOUT</p>
+      <div class="main1">
+        <div class="square02"></div>
+        <div class="yj">
+          <h1>[YOUJIN HWANG]</h1>
+          <p>
+            <br />
+            99.11.26 <br />
+            <br />
+            Environmental <br />
+            energy <br />
+            engineering <br />
+            <br />
+            2023 Graduate <br />
+            <br />
+            INTP / ENFP
+          </p>
+        </div>
+      </div>
+      <div class="photo">
+        <img class="img1" src="./img/Rectangle 14.png" alt="14" />
+        <img class="img2" src="./img/Rectangle 15.png" alt="15" />
+        <img class="img3" src="./img/Rectangle 16.png" alt="16" />
+        </div>
+
+      </div>
+
+      <p class="love">LOVE THINGS</p>
+      <div class="loveimg">
+        <img
+          class="img001"
+          src="./img/KakaoTalk_20240211_171732591_03.jpg"
+          alt=""
+        />
+        <img
+          class="img002"
+          src="./img/KakaoTalk_20240211_171732591.jpg"
+          alt=""
+        />
+        <img
+          class="img003"
+          src="./img/KakaoTalk_20240211_171732591_05.jpg"
+          alt=""
+        />
+        <img
+          class="img004"
+          src="./img/KakaoTalk_20240211_171732591_07.jpg"
+          alt=""
+        />
+      </div>
+
+      <p class="cooking">Cooking</p>
+      <div class="loveimg02">
+        <img
+          class="img005"
+          src="./img/KakaoTalk_20240211_171732591_02.jpg"
+          alt=""
+        />
+        <img
+          class="img006"
+          src="./img/KakaoTalk_20240211_171732591_04.jpg"
+          alt=""
+        />
+        <img
+          class="img006"
+          src="./img/KakaoTalk_20240211_171732591_06.jpg"
+          alt=""
+        />
+        <img
+          class="img007"
+          src="./img/KakaoTalk_20240211_171732591_02.jpg"
+          alt=""
+        />
+      </div>
+
+      <p class="baking">Baking</p>
+
+      <p class="nav-value">VALUE</p>
+      <div class="square03">
+        <p class="value">
+          무언가를 창조하는 과정에서 가치를 느낍니다. <br />
+          <br />
+          <br />
+          창조한 결과물이 영향력을 발휘할 때 가치를 느낍니다. <br /><br /><br />
+          가치를 느끼는 일을 하면서<br /><br /><br />
+          주도적인 삶을 사는 사람이 되고 싶습니다.
+        </p>
+      </div>
+
+      <p class="nav-contact">CONTACT</p>
+
+      <p class="hear">
+        I'd love to <br />
+        hear from you
+      </p>
+      원형
+      <div class="square04"></div>
+      <p class="contact">Contact me</p>
+
+  </body>
